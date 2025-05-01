@@ -1,0 +1,114 @@
+:root {
+    --primary: #2e8b57;
+    --primary-light: #5cb85c;
+    --primary-dark: #1e5a3a;
+    --secondary: #ff7f50;
+    --white: #ffffff;
+    --light-gray: #f8f9fa;
+    --dark-gray: #343a40;
+}
+
+.auth-body {
+    background-color: var(--light-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.auth-container {
+    width: 100%;
+    max-width: 450px;
+}
+
+.auth-card {
+    background-color: var(--white);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.auth-logo {
+    width: 80px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.auth-title {
+    color: var(--primary-dark);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.auth-link {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.auth-link:hover {
+    color: var(--primary-dark);
+    text-decoration: underline;
+}
+
+.auth-divider {
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+    color: #6c757d;
+    font-size: 14px;
+}
+
+.auth-divider::before,
+.auth-divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.auth-divider::before {
+    margin-right: 10px;
+}
+
+.auth-divider::after {
+    margin-left: 10px;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    padding: 10px;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+}
+
+.form-control:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 0.25rem rgba(46, 139, 87, 0.25);
+}
+
+/* Validación de formulario */
+.is-invalid {
+    border-color: #dc3545;
+}
+
+.invalid-feedback {
+    color: #dc3545;
+    font-size: 0.875em;
+    margin-top: 0.25rem;
+}
+
+/* Dark mode */
+[data-bs-theme="dark"] .auth-card {
+    background-color: var(--dark-gray);
+    color: var(--white);
+}
+
+[data-bs-theme="dark"] .auth-body {
+    background-color: #212529;
+}
