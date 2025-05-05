@@ -1,17 +1,18 @@
 :root {
     --primary: #2e8b57;
-    --primary-light: #5cb85c;
+    --primary-light: #639EC5;
     --primary-dark: #1e5a3a;
     --secondary: #ff7f50;
     --dark: #2c3e50;
-    --light: #f8f9fa;
-    --white: #ffffff;
+    --light: #639EC5;
+    --white: #639EC5;
     --gray: #6c757d;
-    --navbar-bg: #2af801;
-    --footer-bg: #36fa00;
+    
+    --navbar-bg:- #639EC5; 
+    --footer-bg: - #5284a4;
     --dog-color: #0e65f2;
     --cat-color: #8338ec;
-    --client-header: #4a6fa5;
+    --client-header: #080e78;
 }
 
 /* Base Styles */
