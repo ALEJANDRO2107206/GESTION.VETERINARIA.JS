@@ -5,12 +5,12 @@
     --secondary: #ff7f50;
     --dark: #2c3e50;
     --light: #639EC5;
-    --white: #639EC5;
-    --gray: #6c757d;
+    --white: #e0e0e0;
+    --gray: #b4b4b476;
     
-    --navbar-bg:- #639EC5; 
-    --footer-bg: - #5284a4;
-    --dog-color: #0e65f2;
+    --navbar-bg:- #1b00b1; 
+    --footer-bg: - #f8f9fa;
+    --dog-color: #8338ec;
     --cat-color: #8338ec;
     --client-header: #080e78;
 }
@@ -32,7 +32,7 @@ body {
 
 .navbar-brand,
 .nav-link {
-    color: white !important;
+    color: rgb(228, 228, 231) !important;
 }
 
 .nav-link.active {
@@ -79,7 +79,7 @@ body {
 }
 
 .client-section {
-    background-color: #f9f9f9;
+    background-color: #ffffff;
 }
 
 .pets-section {
