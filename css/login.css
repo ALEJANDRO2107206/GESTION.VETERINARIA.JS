@@ -89,16 +89,16 @@
 
 .form-control:focus {
     border-color: var(--primary);
-    box-shadow: 0 0 0 0.25rem rgba(46, 139, 87, 0.25);
+    box-shadow: 0 0 0 0.25rem rgba(28, 4, 186, 0.25);
 }
 
 /* Validación de formulario */
 .is-invalid {
-    border-color: #dc3545;
+    border-color: #013507;
 }
 
 .invalid-feedback {
-    color: #dc3545;
+    color: #ea031a;
     font-size: 0.875em;
     margin-top: 0.25rem;
 }
@@ -113,34 +113,3 @@
     background-color: #212529;
 }
 
-.auth-body {
-    background-image: url'https://www.casasdog.pe/wp-content/uploads/2021/10/perros-grandes.png'; 
-    
-    /* imagen de perritos */
-    
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    padding: 20px;
-
-    position: relative;
-}
-
-.auth-body::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    backdrop-filter: blur(5px);
-    background-color: rgba(255, 255, 255, 0.4);
-    z-index: 0;
-}
-
-.auth-container {
-position: relative 
-    z-index;
-}
